@@ -1,0 +1,78 @@
+body {
+  background-color: bisque;
+  font-family: 'Inter';
+}
+
+h1 {
+  margin:0;
+  padding:0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.waiting-list {
+  width: 470px;
+  height: 612px;
+  background-color: white;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.waiting-list form {
+  margin-top: 32px;
+}
+
+.waiting-list .field {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.waiting-list .field label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+
+
+  color: #637381;
+}
+
+.waiting-list .field input {
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  height: 40px;
+}
+
+.waiting-list .field input::placeholder {
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+color: #637381;
+}
+
+.waiting-list button {
+  width: 120px;
+height: 45px;
+background: #3056D3;
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+border:none;
+/* identical to box height, or 125% */
+
+
+color: #FFFFFF;
+
+}
